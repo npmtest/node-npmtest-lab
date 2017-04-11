@@ -1,1 +1,40 @@
-{     "devDependencies": {         "lab": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-lab",     "homepage": "https://github.com/npmtest/node-npmtest-lab",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-lab.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [lab (v13.0.1)](https://github.com/hapijs/lab#readme) [![npm package](https://img.shields.io/npm/v/npmtest-lab.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lab) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lab.svg)](https://travis-ci.org/npmtest/node-npmtest-lab)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "lab": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-lab",
+    "keywords": [
+        "coverage",
+        "test",
+        "lab"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_lab.js",
+    "name": "npmtest-lab",
+    "nameAlias": "npmtest_lab",
+    "nameOriginal": "npmtest-lab",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-lab.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
