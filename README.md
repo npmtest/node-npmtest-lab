@@ -1,6 +1,6 @@
 # npmtest-lab
 
-#### test coverage for  [lab (v13.0.2)](https://github.com/hapijs/lab#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lab.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lab) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lab.svg)](https://travis-ci.org/npmtest/node-npmtest-lab)
+#### basic test coverage for  [lab (v13.0.2)](https://github.com/hapijs/lab#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-lab.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-lab) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-lab.svg)](https://travis-ci.org/npmtest/node-npmtest-lab)
 
 #### Test utility
 
