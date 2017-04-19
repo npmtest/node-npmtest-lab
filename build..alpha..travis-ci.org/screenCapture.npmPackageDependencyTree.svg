@@ -4,7 +4,7 @@
 <tspan x="10" y="26">31 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
-<tspan x="10" y="74">└─┬ lab@13.0.1 </tspan>
+<tspan x="10" y="74">└─┬ lab@13.0.2 </tspan>
 <tspan x="10" y="90">  ├─┬ bossy@3.0.4 </tspan>
 <tspan x="10" y="106">  │ └─┬ joi@10.4.1 </tspan>
 <tspan x="10" y="122">  │   ├── isemail@2.2.1 </tspan>
@@ -123,14 +123,14 @@
 <tspan x="10" y="1930">  │ │ │ └── callsites@0.2.0 </tspan>
 <tspan x="10" y="1946">  │ │ └── resolve-from@1.0.1 </tspan>
 <tspan x="10" y="1962">  │ ├─┬ shelljs@0.7.7 </tspan>
-<tspan x="10" y="1978">  │ │ ├── interpret@1.0.2 </tspan>
+<tspan x="10" y="1978">  │ │ ├── interpret@1.0.3 </tspan>
 <tspan x="10" y="1994">  │ │ └─┬ rechoir@0.6.2 </tspan>
 <tspan x="10" y="2010">  │ │   └─┬ resolve@1.3.2 </tspan>
 <tspan x="10" y="2026">  │ │     └── path-parse@1.0.5 </tspan>
 <tspan x="10" y="2042">  │ ├── strip-bom@3.0.0 </tspan>
 <tspan x="10" y="2058">  │ ├── strip-json-comments@2.0.1 </tspan>
 <tspan x="10" y="2074">  │ ├─┬ table@3.8.3 </tspan>
-<tspan x="10" y="2090">  │ │ ├─┬ ajv@4.11.6 </tspan>
+<tspan x="10" y="2090">  │ │ ├─┬ ajv@4.11.7 </tspan>
 <tspan x="10" y="2106">  │ │ │ └── co@4.6.0 </tspan>
 <tspan x="10" y="2122">  │ │ ├── ajv-keywords@1.5.1 </tspan>
 <tspan x="10" y="2138">  │ │ ├── slice-ansi@0.0.4 </tspan>
@@ -179,7 +179,7 @@
 <tspan x="10" y="2826">  ├── json-stringify-safe@5.0.1 </tspan>
 <tspan x="10" y="2842">  ├─┬ mkdirp@0.5.1 </tspan>
 <tspan x="10" y="2858">  │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="2874">  ├── seedrandom@2.4.2 </tspan>
+<tspan x="10" y="2874">  ├── seedrandom@2.4.3 </tspan>
 <tspan x="10" y="2890">  ├── source-map@0.5.6 </tspan>
 <tspan x="10" y="2906">  └── source-map-support@0.4.14</tspan>
 </text>
